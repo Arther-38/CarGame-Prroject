@@ -300,10 +300,10 @@ if __name__ == "__main__" :
         screen.fill_color(green)
         
         if not finish:
-            car.player_pressKey()
-            move_road = car.player_pressKey()
-            #car.agent_pressKey()
-            #move_road = car.agent_pressKey()
+            #car.player_pressKey()
+            #move_road = car.player_pressKey()
+            car.agent_pressKey()
+            move_road = car.agent_pressKey()
         
         road.draw(screen.screen)
         
